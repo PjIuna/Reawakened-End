@@ -1,4 +1,4 @@
-package net.mcreator.fickingmod;
+package net.mcreator.shadow_s_end;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -33,12 +33,12 @@ import java.lang.invoke.MethodType;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodHandle;
 
-@Mod("fickingmod")
-public class FickingmodMod {
-	public static final Logger LOGGER = LogManager.getLogger(FickingmodMod.class);
-	public static final String MODID = "fickingmod";
+@Mod("shadows_and_pjlunas_end")
+public class ShadowsAndPjlunasEndMod {
+	public static final Logger LOGGER = LogManager.getLogger(ShadowsAndPjlunasEndMod.class);
+	public static final String MODID = "shadows_and_pjlunas_end";
 
-	public FickingmodMod(IEventBus modEventBus) {
+	public ShadowsAndPjlunasEndMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
