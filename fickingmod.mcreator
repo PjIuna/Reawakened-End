@@ -9,8 +9,8 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/shadow_s_end/ShadowsEndMod.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/shadow_s_end/ShadowsAndPjlunasEndMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
@@ -19,12 +19,13 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "shadows_end",
-    "modName": "Shadow\u0027s End",
+    "modid": "shadows_and_pjlunas_end",
+    "modName": "Shadow\u0027s and Pjluna\u0027s End",
     "version": "1.0.0",
+    "description": "Shadow\u0027s and Pjluna\u0027s End MOD",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "Apache License version 2.0",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],

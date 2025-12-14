@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Academic Free License v3.0"
+license="Apache License version 2.0"
 
 [[mods]]
 modId="shadows_and_pjlunas_end"
