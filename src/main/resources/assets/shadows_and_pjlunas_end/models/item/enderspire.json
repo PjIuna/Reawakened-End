@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "shadows_and_pjlunas_end:item/new_piskel-1.png_2"
+  }
+}

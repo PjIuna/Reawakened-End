@@ -20,6 +20,9 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModTabs;
+import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModItems;
+
 import javax.annotation.Nullable;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,6 +46,8 @@ public class ShadowsAndPjlunasEndMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		ShadowsAndPjlunasEndModItems.REGISTRY.register(modEventBus);
+		ShadowsAndPjlunasEndModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

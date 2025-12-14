@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " aa",
+    "a  "
+  ],
+  "key": {
+    "a": "minecraft:end_stone",
+    "b": "minecraft:ender_pearl"
+  },
+  "result": {
+    "id": "shadows_and_pjlunas_end:enderspire",
+    "count": 1
+  }
+}

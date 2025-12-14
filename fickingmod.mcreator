@@ -13,19 +13,6 @@
           "src/main/resources/assets/shadows_and_pjlunas_end/items/enderspire.json"
         ]
       }
-    },
-    {
-      "name": "Enderspirerecipy",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enderspirerecipy",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/shadows_and_pjlunas_end/recipe/ender_spire_recipy.json",
-          "src/main/resources/data/shadows_and_pjlunas_end/advancement/recipes/enderspirerecipy.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
