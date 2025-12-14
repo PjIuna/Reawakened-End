@@ -22,6 +22,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModTabs;
 import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModItems;
+import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModEntities;
 
 import javax.annotation.Nullable;
 
@@ -47,6 +48,7 @@ public class ShadowsAndPjlunasEndMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		ShadowsAndPjlunasEndModItems.REGISTRY.register(modEventBus);
+		ShadowsAndPjlunasEndModEntities.REGISTRY.register(modEventBus);
 		ShadowsAndPjlunasEndModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

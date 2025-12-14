@@ -35,6 +35,9 @@
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "Fireprojecttaileenderspire"
+    }
   }
 }
