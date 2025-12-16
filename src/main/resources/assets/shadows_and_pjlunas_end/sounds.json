@@ -1,0 +1,20 @@
+{
+  "time_freeze": {
+    "subtitle": "subtitles.time_freeze",
+    "sounds": [
+      {
+        "name": "shadows_and_pjlunas_end:vibratetimeeffect4-37261",
+        "stream": false
+      }
+    ]
+  },
+  "clock_ticking": {
+    "subtitle": "subtitles.clock_ticking",
+    "sounds": [
+      {
+        "name": "shadows_and_pjlunas_end:slow-cinematic-clock-ticking-tension-2-323078",
+        "stream": false
+      }
+    ]
+  }
+}

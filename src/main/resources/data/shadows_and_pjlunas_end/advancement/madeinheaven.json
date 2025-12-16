@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "shadows_and_pjlunas_end:space_clock"
+    },
+    "title": {
+      "translate": "advancements.madeinheaven.title"
+    },
+    "description": {
+      "translate": "advancements.madeinheaven.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "madeinheaven_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "shadows_and_pjlunas_end:space_clock"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "minecraft:story/root"
+}

@@ -1,3 +1,8 @@
 {
-  "item.shadows_and_pjlunas_end.enderspire": "Ender Spire"
+  "item.shadows_and_pjlunas_end.enderspire": "Ender Spire",
+  "item.shadows_and_pjlunas_end.space_clock": "Space Clock",
+  "advancements.madeinheaven.descr": "slow doooown time",
+  "advancements.madeinheaven.title": "MADE IN HEAVEN",
+  "subtitles.time_freeze": "time_slowed",
+  "subtitles.clock_ticking": "clock_ticking_sound"
 }

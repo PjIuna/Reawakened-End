@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "shadows_and_pjlunas_end:item/new_piskel_19"
+  }
+}

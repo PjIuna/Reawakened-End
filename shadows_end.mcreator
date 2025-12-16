@@ -64,10 +64,128 @@
           "src/main/java/net/mcreator/shadow_s_end/procedures/FireprojecttaileenderspireProcedure.java"
         ]
       }
+    },
+    {
+      "name": "SpaceClockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_clock_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/shadow_s_end/procedures/SpaceClockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceClock",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_clock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/shadow_s_end/item/SpaceClockItem.java",
+          "src/main/resources/assets/shadows_and_pjlunas_end/items/space_clock.json",
+          "src/main/resources/assets/shadows_and_pjlunas_end/models/item/space_clock.json"
+        ]
+      }
+    },
+    {
+      "name": "MADEINHEAVEN",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "madeinheaven",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/shadows_and_pjlunas_end/advancement/madeinheaven.json"
+        ]
+      }
+    },
+    {
+      "name": "SpaceClockEveryTickWhileUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_clock_every_tick_while_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/shadow_s_end/procedures/SpaceClockEveryTickWhileUsingItemProcedure.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "time_freezen",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "time_freeze",
+      "files": [
+        "vibratetimeeffect4-37261"
+      ],
+      "category": "master",
+      "subtitle": "time_slowed"
+    },
+    {
+      "name": "clock_ticking",
+      "files": [
+        "slow-cinematic-clock-ticking-tension-2-323078"
+      ],
+      "category": "master",
+      "subtitle": "clock_ticking_sound"
+    }
+  ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Enderspire"
@@ -79,7 +197,12 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.shadows_and_pjlunas_end.enderspire": "Ender Spire"
+      "item.shadows_and_pjlunas_end.enderspire": "Ender Spire",
+      "item.shadows_and_pjlunas_end.space_clock": "Space Clock",
+      "advancements.madeinheaven.descr": "slow doooown time",
+      "advancements.madeinheaven.title": "MADE IN HEAVEN",
+      "subtitles.time_freeze": "time_slowed",
+      "subtitles.clock_ticking": "clock_ticking_sound"
     }
   },
   "metadata": {
@@ -88,9 +211,12 @@
       "src/main/java/net/mcreator/shadow_s_end/init/ShadowsAndPjlunasEndModEntityRenderers.java",
       "src/main/java/net/mcreator/shadow_s_end/init/ShadowsAndPjlunasEndModEntities.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/shadows_and_pjlunas_end/sounds.json",
       "src/main/java/net/mcreator/shadow_s_end/init/ShadowsAndPjlunasEndModTabs.java",
       "src/main/java/net/mcreator/shadow_s_end/ShadowsAndPjlunasEndMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/shadow_s_end/init/ShadowsAndPjlunasEndModSounds.java",
+      "src/main/java/net/mcreator/shadow_s_end/network/ShadowsAndPjlunasEndModVariables.java"
     ]
   },
   "foldersRoot": {

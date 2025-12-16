@@ -20,7 +20,9 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.shadow_s_end.network.ShadowsAndPjlunasEndModVariables;
 import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModTabs;
+import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModSounds;
 import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModItems;
 import net.mcreator.shadow_s_end.init.ShadowsAndPjlunasEndModEntities;
 
@@ -47,9 +49,11 @@ public class ShadowsAndPjlunasEndMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		ShadowsAndPjlunasEndModSounds.REGISTRY.register(modEventBus);
 		ShadowsAndPjlunasEndModItems.REGISTRY.register(modEventBus);
 		ShadowsAndPjlunasEndModEntities.REGISTRY.register(modEventBus);
 		ShadowsAndPjlunasEndModTabs.REGISTRY.register(modEventBus);
+		ShadowsAndPjlunasEndModVariables.ATTACHMENT_TYPES.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

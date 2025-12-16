@@ -22,6 +22,7 @@ public class ShadowsAndPjlunasEndModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ShadowsAndPjlunasEndModItems.ENDERSPIRE.get());
+			tabData.accept(ShadowsAndPjlunasEndModItems.SPACE_CLOCK.get());
 		}
 	}
 }
