@@ -391,18 +391,19 @@
   "workspaceSettings": {
     "modid": "shadows_and_pjlunas_end",
     "modName": "Shadow\u0027s and Pjluna\u0027s End",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Shadow\u0027s and Pjluna\u0027s End MOD",
-    "author": "MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "ShadowB \u0026 Pjluna",
+    "websiteURL": "https://modrinth.com/project/project-overide",
     "license": "Apache License version 2.0",
     "serverSideOnly": false,
+    "modPicture": "image",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Thank you to Pjluna for helping me make this mod and testing for bugs to",
     "modElementsPackage": "net.mcreator.shadow_s_end"
   },
   "mcreatorVersion": 202500344519

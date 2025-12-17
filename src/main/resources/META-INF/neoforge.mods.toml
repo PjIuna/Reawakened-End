@@ -4,11 +4,12 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="shadows_and_pjlunas_end"
-version="1.0.0"
+version="0.1.0"
 displayName="Shadow's and Pjluna's End"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+displayURL="https://modrinth.com/project/project-overide"
+logoFile="logo.png"
+credits="Thank you to Pjluna for helping me make this mod and testing for bugs to"
+authors="ShadowB & Pjluna"
 description="Shadow's and Pjluna's End MOD"
 
 # Start of user code block mod configuration
